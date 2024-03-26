@@ -1,0 +1,52 @@
+/* Login.css */
+
+/* Form container styles */
+#background-video {
+  position: fixed; /* Agar video menutupi seluruh layar */
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Letakkan video di belakang konten lain */
+  opacity: 0.75; /* Atur opasitas video */
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form item styles */
+.login-item {
+  margin-bottom: 20px;
+}
+
+.login-item label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-item input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button styles */
+.btn-login {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #f00;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-orm",
+  "version": "1.0.0",
+  "description": "Belajar fullstack react dan nodejs menggunakan ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Septa Adi Nugroho",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}
